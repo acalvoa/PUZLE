@@ -1,0 +1,71 @@
+.maze{
+	width: 600px;
+	height: 600px;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+}
+.element{
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	border: 1px solid #333;
+	text-align: center;
+	line-height: 200px;
+	vertical-align: middle;
+	background: #DDD;
+	font-weight: bold;
+	cursor:pointer;
+}
+.button{
+	height: 45px;
+	width: 200px;
+	border: 1px solid #333;
+	position: absolute;
+	position: absolute;
+	margin: auto;
+	top:50%;
+	left: 50%;
+	margin-left: -100px;
+	cursor: pointer;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 45px;
+	margin-top: 350px;
+}
+.m_mahattan{
+	height: 210px;
+	width: 210px;
+	position: absolute;
+	top:40px;
+	left:10px;
+	border: 1px #333 solid;
+}
+.m_mahattan_e{
+	position: absolute;
+	height: 70px;
+	width: 70px;
+	border:1px solid #333;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 70px;
+}
+.megan{
+	position: absolute;
+	top: 300px;
+}
+.m_megan{
+	height: 210px;
+	width: 210px;
+	position: absolute;
+	top:330px;
+	left:10px;
+	border: 1px #333 solid;
+}
+.selected_p{
+	position: absolute;
+	top: 270px;	
+}
